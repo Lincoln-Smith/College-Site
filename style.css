@@ -1,0 +1,86 @@
+.bg-hero-image{
+    background-image: url(img/owl.png) ;
+    background-position: center center;
+    background-size: cover;
+}
+
+body {
+    background-color: #6d4700;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  li {
+    background-color: rgb(34, 34, 34);
+  }
+
+  ul {
+    background-color: rgb(34, 34, 34);
+  }
+
+  .hr {
+    background-color: rgb(34, 34, 34);
+  }
+
+  p {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  a {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  h1 {
+    color: white;
+    font-size: 75px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+
+img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px; 
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h5 {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.card{
+  background-color: rgba(221, 151, 0, 0.541); /* Change to any color you prefer */
+
+
+}

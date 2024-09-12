@@ -1,55 +1,331 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Rowan Univeristy!</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rowan University!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Kanit:wght@200&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-  
-        <main class="container text-center my-4 container-box">
-            <div class="row">
-                <div class="col-md-6 mx-auto container-box">
-                    <img id="placeholderImage" src="imgs/date.png" alt="Placeholder Image" class="img-fluid">
+<body>
+    <div class="container">
+        <!-- Header Section-->
+        <div class="row m-3">
+<!-- Hero-->
+<div class="col-12 col-lg-6 p-5 text-center rounded-3 bg-hero-image" style="background-image: url('img/owl.png');">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+            <h1 class="mb-3">Rowan University!</h1>
+        </div>
+    </div>
+</div>
+<!-- Hero END-->
+
+
+            <!-- Description -->
+         <div class="col-12 col-lg-6 my-3 my-lg-0 p-3 d-flex align-items-center text-center rounded-3 bg-light">
+        <p>
+            Rowan University is known for its strong p
+            rograms in engineering, business, and education. It has a growing reputation for innovation and offers a wi
+            de range of undergraduate and graduate programs across various disciplines. </p>
+            </div> 
+        </div>
+
+            <!-- Description End-->
+        </div>
+        <!-- Header Section END-->
+        <div class="container">
+
+            <!-- subjects -->
+            <div class="row m-3">
+
+             <h4>
+                    General Information:</h4><br>
+
+ <!-- fact 1 -->
+ <div class="col-12 col-lg-4 p-3 mb-2">
+    <div class="card">
+        <img src="imgs/1resp.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+            <h5 class="card-title">Location</h5>
+            <p class="card-text">
+                Rowan is located in Glassboro, New Jersey, inside of Gloucester County   
+        </div>
+    </div>
+</div>
+<!-- fact 1 END-->
+                <!-- fact 2 -->
+                <div class="col-12 col-lg-4 p-3 mb-2">
+                    <div class="card">
+                        <img src="imgs/2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Established In</h5>
+                            <p class="card-text"> The university was founded on September 24, 1923
+
+                            </p>
+                       
+                        </div>
+                    </div>
+                </div>
+                <!-- fact 2 END-->
+                <!-- fact 3 -->
+                <div class="col-12 col-lg-4 p-3 mb-2">
+                    <div class="card">
+                        <img src="imgs/3e.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mascot</h5>
+                            <p class="card-text">The mascot of Rowan University is Whoo RU, also known as the Prof
+
+
+                            </p>
+                       
+                        </div>
+                    </div>
+                </div>
+                <!-- fact 3 END-->
+
+               <h4>
+                   Academic Programs:</h4><br>
+
+                <!-- fact 4 -->
+                <div class="col-12 col-lg-4 p-3 mb-2">
+                    <div class="card">
+                        <img src="imgs/4req.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Good for Doctors!</h5>
+                            <p class="card-text">1 of only 4 universities in the nation to grant both M.D. and D.O. medical degrees
+
+                            </p>
+                      
+                        </div>
+                    </div>
+                </div>
+                <!-- fact 4 END-->
+              <!-- fact 5 -->
+              <div class="col-12 col-lg-4 p-3 mb-2">
+                <div class="card">
+                    <img src="imgs/5q.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Honor Societies</h5>
+                        <p class="card-text">Rowan's honor societies include: Alpha Epsilon Lambda, Alpha Alpha Alpha, Lambda Alpha, and Phi Alpha Theta
+
+                        </p>
+
+                    </div>
                 </div>
             </div>
-            <div class="content mt-4 container-box">
-                <!-- Your content goes here -->
-                <button onclick="change1789()">1923</button>
-                <button onclick="change1957()">2024</button>
-            </div>
-            <div id="info"></div>
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+            <!-- fact 5 END-->
+          <!-- fact 6 -->
+          <div class="col-12 col-lg-4 p-3 mb-2">
+            <div class="card">
+                <img src="imgs/6school.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Schools</h5>
+                    <p class="card-text">Some of the best schools an aspiring teacher can attend include Vanderbilt, University of Texas, as well as the well known Ivy Leagues like Stanford or Harvard. 
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- fact 6 END-->
+
+       <h4>
+            Student Life:</h4><br>
+
+      <!-- fact 7 -->
+      <div class="col-12 col-lg-4 p-3 mb-2">
+        <div class="card">
+            <img src="imgs/7money.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Salary Range</h5>
+                <p class="card-text">From elementary to high school, teacher salaries can range from $38,000-$105,000.
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- fact 7 END-->
+  <!-- fact 8 -->
+  <div class="col-12 col-lg-4 p-3 mb-2">
+    <div class="card">
+        <img src="imgs/8ppppp.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+            <h5 class="card-title">Job Outlook</h5>
+            <p class="card-text">The fact that schools and demand for teachers are expected to increase in the coming 
+                years as well as teachers salaries increasing by 5% makes this job outlook pretty good.
+            </p>
+
+        </div>
+    </div>
+</div>
+<!-- fact 8 END--> 
+ <!-- fact 9 -->
+<div class="col-12 col-lg-4 p-3 mb-2">  
+    <div class="card">
+        <img src="imgs/9abc.png" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+            <h5 class="card-title">Other</h5>
+            <p class="card-text">Salaries can vary drastically depending on what state, country or grade you are teaching.
+
+            </p>
+
+        </div>
+    </div>
+</div>
+<!-- fact 9 END-->
+<h4>
+    Financial Aid:</h4><br>
+
+<!-- fact 10 -->
+<div class="col-12 col-lg-4 p-3 mb-2">
+<div class="card">
+    <img src="imgs/7money.png" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+        <h5 class="card-title">Salary Range</h5>
+        <p class="card-text">From elementary to high school, teacher salaries can range from $38,000-$105,000.
+
+        </p>
+
+    </div>
+</div>
+</div>
+<!-- fact 10 END-->
+<!-- fact 11 -->
+<div class="col-12 col-lg-4 p-3 mb-2">
+<div class="card">
+<img src="imgs/8ppppp.png" class="card-img-top" alt="...">
+<div class="card-body text-center">
+    <h5 class="card-title">Job Outlook</h5>
+    <p class="card-text">The fact that schools and demand for teachers are expected to increase in the coming 
+        years as well as teachers salaries increasing by 5% makes this job outlook pretty good.
+    </p>
+
+</div>
+</div>
+</div>
+<!-- fact 11 END--> 
+<!-- fact 12 -->
+<div class="col-12 col-lg-4 p-3 mb-2">  
+<div class="card">
+<img src="imgs/9abc.png" class="card-img-top" alt="...">
+<div class="card-body text-center">
+    <h5 class="card-title">Other</h5>
+    <p class="card-text">Salaries can vary drastically depending on what state, country or grade you are teaching.
+
+    </p>
+
+</div>
+</div>
+</div>
+<!-- fact 12 END-->
+
+<h4>
+    Cost:</h4><br>
+
+<!-- fact 13 -->
+<div class="col-12 col-lg-4 p-3 mb-2">
+<div class="card">
+    <img src="imgs/7money.png" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+        <h5 class="card-title">Salary Range</h5>
+        <p class="card-text">From elementary to high school, teacher salaries can range from $38,000-$105,000.
+
+        </p>
+
+    </div>
+</div>
+</div>
+<!-- fact 13 END-->
+<!-- fact 14 -->
+<div class="col-12 col-lg-4 p-3 mb-2">
+<div class="card">
+<img src="imgs/8ppppp.png" class="card-img-top" alt="...">
+<div class="card-body text-center">
+    <h5 class="card-title">Job Outlook</h5>
+    <p class="card-text">The fact that schools and demand for teachers are expected to increase in the coming 
+        years as well as teachers salaries increasing by 5% makes this job outlook pretty good.
+    </p>
+
+</div>
+</div>
+</div>
+<!-- fact 14 END--> 
+<!-- fact 15 -->
+<div class="col-12 col-lg-4 p-3 mb-2">  
+<div class="card">
+<img src="imgs/9abc.png" class="card-img-top" alt="...">
+<div class="card-body text-center">
+    <h5 class="card-title">Other</h5>
+    <p class="card-text">Salaries can vary drastically depending on what state, country or grade you are teaching.
+
+    </p>
+
+</div>
+</div>
+</div>
+<!-- fact 15 END-->
+
+<h4>
+    Alumni Success:</h4><br>
+
+<!-- fact 16 -->
+<div class="col-12 col-lg-4 p-3 mb-2">
+<div class="card">
+    <img src="imgs/7money.png" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+        <h5 class="card-title">Salary Range</h5>
+        <p class="card-text">From elementary to high school, teacher salaries can range from $38,000-$105,000.
+
+        </p>
+
+    </div>
+</div>
+</div>
+<!-- fact 16 END-->
+<!-- fact 17 -->
+<div class="col-12 col-lg-4 p-3 mb-2">
+<div class="card">
+<img src="imgs/8ppppp.png" class="card-img-top" alt="...">
+<div class="card-body text-center">
+    <h5 class="card-title">Job Outlook</h5>
+    <p class="card-text">The fact that schools and demand for teachers are expected to increase in the coming 
+        years as well as teachers salaries increasing by 5% makes this job outlook pretty good.
+    </p>
+
+</div>
+</div>
+</div>
+<!-- fact 17 END--> 
+<!-- fact 18 -->
+<div class="col-12 col-lg-4 p-3 mb-2">  
+<div class="card">
+<img src="imgs/9abc.png" class="card-img-top" alt="...">
+<div class="card-body text-center">
+    <h5 class="card-title">Other</h5>
+    <p class="card-text">Salaries can vary drastically depending on what state, country or grade you are teaching.
+
+    </p>
+
+</div>
+</div>
+</div>
+<!-- fact 18 END-->
+            </div>
+        </div>
+</div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
 </html>
