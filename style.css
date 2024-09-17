@@ -84,3 +84,11 @@ h2 {
 
 
 }
+
+
+#usernameDisplay {
+  color: white;
+  font-size: 75px;
+  font-weight: normal;
+  text-align: center;
+}
