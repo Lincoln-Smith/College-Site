@@ -80,7 +80,7 @@ h2 {
 }
 
 .card{
-  background-color: rgba(221, 151, 0, 0.541); /* Change to any color you prefer */
+  background-color: rgba(221, 151, 0, 0.541);
 
 
 }
@@ -91,4 +91,42 @@ h2 {
   font-size: 75px;
   font-weight: normal;
   text-align: center;
+}
+
+
+.btn.btn-primary {
+  background-color: #ac7e00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Adding hover effect */
+.btn.btn-primary:hover {
+  background-color: #ffbb00;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  padding: 20px;
+}
+
+.button-container .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+      flex-direction: column;
+      align-items: center;
+  }
 }
